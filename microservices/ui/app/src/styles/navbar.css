@@ -1,7 +1,8 @@
 .outer-div-nav-bar {
+  display: flex;
  width: 100%;
  height: 65px;
- background-color: #F7A072;
+ background-color: white;
  border-bottom: 1px solid white;
  transition: all 2.0s ease;
 }
@@ -11,23 +12,22 @@
 }
 
 .home-button {
- padding: 10px 30px;
- position: absolute;
- left: 50px;
- top: 14px;
- border-radius: 5px;
- background: darkcyan;
+ height: 100%;
+ width: 80px;
  color: white;
- text-shadow: 2px 2px 2px black;
- border: 1px solid #B5E2FA;
  transition: all 0.2s ease;
  outline: none;
+ font-size: 14px;
  border: none;
+ background: url("../images/favicon.png");
+ background-size: 50%;
+ opacity: 50%;
+ background-repeat: no-repeat;
+ background-position: center;
 }
 
 .home-button:hover {
  cursor: pointer;
- background: #008080;
  -webkit-transform: scale(1.05);
  -moz-transform: scale(1.05);
  -o-transform: scale(1.05);
@@ -35,25 +35,16 @@
 }
 
 .explore-button {
- padding: 10px 30px;
- position: absolute;
- left: 180px;
- top: 14px;
- color: white;
- border-radius: 5px;
- background: darkcyan;
- text-shadow: 2px 2px 2px black;
- border: 1px solid #B5E2FA;
- transition: transform 0.2s ease;
- outline: none;
- border: none;
+  height: 100%;
+  width: 80px;
+  color: darkgray;
+  transition: all 0.2s ease;
+  outline: none;
+  font-size: 14px;
+  border: none;
 }
 
 .explore-button:hover {
  cursor: pointer;
- background:#008080;
- -webkit-transform: scale(1.05);
- -moz-transform: scale(1.05);
- -o-transform: scale(1.05);
- -ms-transform: scale(1.05);
+ background: #F5F5F5;
 }
