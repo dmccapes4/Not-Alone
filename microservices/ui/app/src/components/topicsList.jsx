@@ -63,27 +63,29 @@ class TopicsList extends Component {
               onChange={this.handleChange}
             />
           </form>
-        <ul className = "topics-list">
-        {
-          topics.map(topic => {
+          <div className="topics-list-container">
+            <ul className = "topics-list">
+              {
+                topics.map(topic => {
 
-            return (
-              <div className="span-topic-container">
-                <span className="span-topic">
-                  <Link
-                    to={`/topics/${topic.id}`}
-                    key={`${topic.id}`}
-                    className="link" >
-                    <img className="topic-image" src={topic.image_url}></img>
-                    <h3 id="topic-name" className="topic-name">{topic.name}</h3>
-                  </Link>
-                </span>
-              </div>
+                  return (
+                    <div className="span-topic-container">
+                      <span className="span-topic">
+                        <Link
+                          to={`/topics/${topic.id}`}
+                          key={`${topic.id}`}
+                          className="link" >
+                          <img className="topic-image" src={topic.image_url}></img>
+                          <h3 id="topic-name" className="topic-name">{topic.name}</h3>
+                        </Link>
+                      </span>
+                    </div>
 
-            )
-          })
-        }
-      </ul>
+                  )
+                })
+              }
+            </ul>
+          </div>
     </div>
 
     )
