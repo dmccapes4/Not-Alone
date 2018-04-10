@@ -7,7 +7,7 @@ import {
   HashRouter
 } from 'react-router-dom';
 import './App.css';
-import Nav from './nav/nav';
+import Nav from './components/nav';
 import TopicsList from './components/topicsList';
 import Rooms from './components/rooms';
 import Video from './components/video';

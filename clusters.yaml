@@ -1,14 +1,10 @@
+clusters:
 - alias: hasura
-  config:
-    configmap: controller-conf
-    namespace: hasura
   data: null
-  kubeContext: acridly34
-  name: acridly34
+  infra:
+    provider: hasura-free
 - alias: new
-  config:
-    configmap: controller-conf
-    namespace: hasura
   data: null
-  kubeContext: clapping81
-  name: clapping81
+  infra:
+    provider: hasura-free
+version: v1
