@@ -8,9 +8,9 @@ import '../styles/navbar.css';
 const Nav = (props) => {
     return(
       <div className="outer-div-nav-bar">
-        <button className="home-button" onClick={()=>props.history.push("/")}>
-          Home
-        </button>
+        <div className="home-button" onClick={()=>props.history.push("/")}>
+          
+        </div>
         <button className="explore-button" onClick={()=>props.history.push("/topics")}>
           Explore
         </button>
