@@ -22,11 +22,10 @@
 
 .outer-div > button , #videoButton{
   height: 35px;
-  color: white;
+  color: darkgray;
   border-radius: 5px;
-  background-color: darkcyan;
+  background: white;
   padding: 0px 10px 0px 10px;
-  text-shadow: 2px 2px 2px black;
   margin: 5px 0px;
   margin-left: 48%;
   text-align: center;
@@ -39,7 +38,7 @@
 }
 
 .outer-div > button:hover , #videoButton:hover {
-  background-color: #008080;
+  color: #333;
   cursor: pointer;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
