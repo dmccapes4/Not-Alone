@@ -41,7 +41,7 @@ class Rooms extends Component {
 
   render() {
     return(
-      <div>
+      <div className="main">
         <div className="topics-header-div">
           <img className="topics-header" src="https://res.cloudinary.com/slicecloud/image/upload/v1522004911/header_sun_bkp0bd.jpg"/>
           <h1>Remember: You're Not Alone</h1>
